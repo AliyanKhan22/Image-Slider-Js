@@ -1,0 +1,23 @@
+*
+{
+    Background:linear-gradient(to right,#f536dc,#2699f8,#25ffcc);
+}
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .slides {
+    display: flex;
+    margin-top: 90px;
+  }
+  
+  .slides img {
+    width: 100%;
+    display: none;
+  }
+  
+  .slides img:first-child {
+    display: block;
+  }
